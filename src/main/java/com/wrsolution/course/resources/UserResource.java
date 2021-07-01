@@ -2,6 +2,8 @@ package com.wrsolution.course.resources;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.wrsolution.course.entities.User;
 import com.wrsolution.course.services.UserService;
 
+@Transactional
 @RestController
 @RequestMapping(value = "/users")
 public class UserResource {

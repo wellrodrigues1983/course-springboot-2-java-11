@@ -6,8 +6,8 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import com.wrsolution.course.entities.pk.OrderItemPK;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.wrsolution.course.entities.pk.OrderItemPK;
 
 @Entity
 @Table(name = "tb_order_item")

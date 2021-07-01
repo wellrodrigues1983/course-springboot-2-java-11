@@ -14,8 +14,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.wrsolution.course.entities.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.wrsolution.course.entities.enums.OrderStatus;
 
 @Entity
 @Table(name = "tb_order")
